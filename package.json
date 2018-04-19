@@ -1,0 +1,25 @@
+{
+  "name": "typicalts",
+  "version": "0.1.0",
+  "description": "Easily create an awesome express API in typescript",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "preferGlobal": true,
+  "repository": "git@github.com:pjo336/typicalts.git",
+  "contributors": [
+    "Peter Johnston",
+    "David Hara <hodavidhara@gmail.com>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn run build"
+  },
+  "dependencies": {
+    "commander": "^2.15.1"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.5",
+    "typescript": "^2.8.1"
+  }
+}
