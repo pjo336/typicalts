@@ -1,9 +1,6 @@
 #!/usr/bin/env node
 import program from 'commander';
-
-const init = () => {
-    console.log('Hahaha I don\'t do anything silly!');
-};
+import { init } from './init';
 
 program
   .version('0.1.0')
